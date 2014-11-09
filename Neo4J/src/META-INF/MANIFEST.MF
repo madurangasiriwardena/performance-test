@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Class-Path: commons-logging-1.1.3.jar commons-httpclient-3.0.jar java-
+ json.jar httpclient-cache-4.3.jar httpcore-4.3.jar httpmime-4.3.jar c
+ ommons-codec-1.6.jar httpclient-4.3.jar fluent-hc-4.3.jar ojdbc7 (1).
+ jar ojdbc7.jar ojdbc14.jar java-json.jar ojdbc7 (1).jar opencsv-2.0.j
+ ar httpcore-4.3.jar httpmime-4.3.jar fluent-hc-4.3.jar httpclient-4.3
+ .jar neo4j-jmx-2.1.2.jar neo4j-udc-2.1.2.jar server-api-2.1.2.jar com
+ mons-codec-1.6.jar lucene-core-3.6.2.jar neo4j-shell-2.1.2.jar neo4j-
+ cypher-2.1.2.jar neo4j-kernel-2.1.2.jar httpclient-cache-4.3.jar parb
+ oiled-core-1.1.6.jar scala-library-2.10.4.jar commons-logging-1.1.3.j
+ ar commons-httpclient-3.0.jar neo4j-graph-algo-2.1.2.jar neo4j-lucene
+ -index-2.1.2.jar neo4j-cypher-commons-2.1.2.jar neo4j-graph-matching-
+ 2.1.2.jar parboiled-scala_2.10-1.1.6.jar geronimo-jta_1.1_spec-1.1.1.
+ jar neo4j-cypher-compiler-1.9-2.0.3.jar neo4j-cypher-compiler-2.0-2.0
+ .3.jar neo4j-cypher-compiler-2.1-2.1.2.jar concurrentlinkedhashmap-lr
+ u-1.3.1.jar neo4j-primitive-collections-2.1.2.jar org.apache.servicem
+ ix.bundles.jline-0.9.94_1.jar
+Main-Class: com.sinmin.neo4j.oracle.DivainaDataFetcherOracle
+
