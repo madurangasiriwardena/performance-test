@@ -1,6 +1,6 @@
 To run this test,
 
-1.go to the h2.test folder and buld the project using 
+1.go to the h2 folder and buld the project using 
 
     mvn clean install
 
