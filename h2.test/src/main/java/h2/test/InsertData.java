@@ -136,13 +136,7 @@ public class InsertData {
 		}
 		
 		String baseFolder = base;
-//		ArrayList<File> folders = listFolder(new File(baseFolder));
-//		for(int a=0; a<folders.size(); a++){
-//			System.out.println(folders.get(a).getAbsolutePath());
-//			ArrayList<File> files = listFolder(folders.get(a));
-//			for(int b=0; b<files.size(); b++) {
-//				System.out.println(files.get(b).getAbsolutePath());
-//				String file = files.get(b).getAbsolutePath();
+
 		
 		for(int a=0; a<200; a++){
 			String file = baseFolder + "/" + a + ".xml";
@@ -156,7 +150,7 @@ public class InsertData {
 					OMElement root = oMXMLParserWrapper.getDocumentElement();
 
 					Iterator<?> postItr = root.getChildElements();
-					// start = System.currentTimeMillis();
+
 					while (postItr.hasNext()) {
 						OMElement post = (OMElement) postItr.next();
 
@@ -495,13 +489,6 @@ public class InsertData {
 					}
 				}
 			}		
-//		}
-/*
-		for(int k=8; k<=8; k++){
-			fileName = k+"";
-		
-		}
-		*/
 	}
 
 	public String trim(String s) {

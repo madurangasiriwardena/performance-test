@@ -91,10 +91,6 @@ public class FetchData {
 		iteration = i;
 		
 		addIndex();
-//		try {
-//			boolean valiedConnection = testConnection(driverName, url,
-//					uname, pwd);
-//			if (valiedConnection) {
 				System.out.println("Connection is Healthy");
 				for(int j=0; j<6;j++){
 					writeToFile("\n");
@@ -133,10 +129,6 @@ public class FetchData {
 					writeToFile(",");
 					query17();
 				}
-//			}
-//		} catch (DataSourceException e) {
-//			System.out.println(e.getMessage());
-//		}
 				dropIndex();
 
 	}
@@ -151,22 +143,6 @@ public class FetchData {
 			System.out.println(s);
 		} catch (IOException e) {
 			
-		}
-	}
-
-	public void test() throws SQLException {
-		String s = "Select SP_INSERT_UPDATE_WORD(?) AS WORD_INDEX";
-		PreparedStatement stmt6 = conn.prepareStatement(s);
-		stmt6.setString(1, "මාංස");
-		rs = stmt6.executeQuery();
-		
-//		System.out.println(a);
-		long word;
-		if (rs.next()) {
-			System.out.println("aaaaa");
-			word = rs.getLong("WORD_INDEX");
-			System.out.println(word);
-			System.out.println("bbbbb");			
 		}
 	}
 	
