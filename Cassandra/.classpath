@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/chamila/Downloads/cassandra-driver-core-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/slf4j-1.7.7/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/Downloads/netty-3.9.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/Downloads/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/Downloads/metrics-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/apache-mime4j-core-0.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/axiom-api-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/axiom-c14n-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/axiom-compat-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/axiom-dom-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/axiom-impl-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/axiom-jaxb-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/geronimo-activation_1.1_spec-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/jaxen-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/stax2-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/chamila/semester7/fyp/Untitled Folder/woodstox-core-asl-4.1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
